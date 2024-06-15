@@ -1,5 +1,4 @@
-function addTitleLinkToUserTagline() {
-    let username = "cbrahFor"
+function addTitleLinkToUserTagline(username) {
     // Select all div elements with the specified class
     const userTaglines = document.querySelectorAll('div.user-tagline-component');
     
@@ -25,4 +24,4 @@ function addTitleLinkToUserTagline() {
 }
 
 // Call the function to add the title links
-addTitleLinkToUserTagline();
+addTitleLinkToUserTagline("cbrahFor");
