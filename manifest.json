@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Lichess Profile Editor",
+  "name": "Chesscom Title Editor",
   "version": "1.0",
-  "description": "Adds a title and trophies to my profile page.",
+  "description": "Adds a title to players during live games.",
   "permissions": ["activeTab", "contextMenus"],
   "background": {
     "service_worker": "background.js"
