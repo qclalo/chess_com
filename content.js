@@ -1,4 +1,5 @@
 function addTitleLinkToUserTagline() {
+    let username = "cbrahFor"
     // Select all div elements with the specified class
     const userTaglines = document.querySelectorAll('div.user-tagline-component');
     
@@ -8,7 +9,7 @@ function addTitleLinkToUserTagline() {
         const userUsername = userTagline.querySelector('a.user-username-component.user-username-white.user-username-link.user-tagline-username[data-test-element="user-tagline-username"]');
         
         // Check if the <a> element contains the text 'cbrahFor'
-        if (userUsername && userUsername.textContent.trim() === 'cbrahFor') {
+        if (userUsername && userUsername.textContent.trim() === username) {
             // Create the new <a> element
             const titleLink = document.createElement('a');
             titleLink.className = 'user-chess-title-component';
