@@ -16,7 +16,7 @@ function addTitleLinkToUserTagline() {
             titleLink.href = '/members/titled-players';
             titleLink.target = '_blank';
             titleLink.setAttribute('data-tooltip-target', '11');
-            titleLink.innerHTML = 'WNM';
+            titleLink.innerHTML = 'GM';
             
             // Insert the <a> element into the <div> element as the first child
             userTagline.insertBefore(titleLink, userTagline.firstChild);
