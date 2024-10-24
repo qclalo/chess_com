@@ -1,5 +1,5 @@
 function addTitleLinkToUserTagline() {
-    let username = "cbrahFor"
+    let username = "Uarekomodo9"
     // Select all div elements with the specified class
     const userTaglines = document.querySelectorAll('div.user-tagline-component');
     
@@ -15,8 +15,8 @@ function addTitleLinkToUserTagline() {
             titleLink.className = 'user-chess-title-component';
             titleLink.href = '/members/titled-players';
             titleLink.target = '_blank';
-            titleLink.setAttribute('data-tooltip-target', '11');
-            titleLink.innerHTML = 'GM';
+            titleLink.setAttribute('data-tooltip-target', '207');
+            titleLink.innerHTML = 'IM';
             
             // Insert the <a> element into the <div> element as the first child
             userTagline.insertBefore(titleLink, userTagline.firstChild);
